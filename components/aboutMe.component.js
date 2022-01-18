@@ -33,7 +33,7 @@ const AboutMe = ({closePage, onFront}) => {
                                 <p>El paso mas importante que se puede dar es siempre el siguiente.</p>
                             </aside>
                             <figure>
-                                <img src="https://assets.codepen.io/t-1/freddy-g-lhy1lY3CyLI-unsplash.jpg" alt="Cristian Pardo Casanova" />
+                                <img src="/media/yo.jpeg" alt="Cristian Pardo Casanova" />
                                 <figcaption>Picture.png</figcaption>
                             </figure>
 
