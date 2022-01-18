@@ -1,0 +1,65 @@
+ .tree input {
+    font-size: 1em;
+  }
+  ol.tree {
+    padding-left: 30px;
+  }
+  .tree li {
+    list-style-type: none;
+    /* color: #fff; */
+    position: relative;
+    margin-left: -15px;
+  }
+  .tree li label {
+    padding-left: 37px;
+    cursor: pointer;
+    background: url("/media/folder-horizontal.png")
+      no-repeat 15px 2px;
+    display: block;
+  }
+  .tree li input {
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    left: -0.5em;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .tree li input + ol {
+    height: 1em;
+    margin: -16px 0 0 -44px;
+    background: url("/media/toggle-small-expand.png")
+      no-repeat 40px 0;
+  }
+  .tree li input + ol > li {
+    display: none;
+    margin-left: -14px !important;
+    padding-left: 1px;
+  }
+  .tree li.file {
+    margin-left: -1px !important;
+  }
+  .tree li.file span {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 21px;
+    font-size: 12px;
+    text-decoration: none;
+    background: url("/media/document.png")
+      no-repeat 0 0;
+  }
+  .tree li input:checked + ol {
+    height: auto;
+    margin: -21px 0 0 -44px;
+    padding: 25px 0 0 80px;
+    background: url("/media/toggle-small.png")
+      no-repeat 40px 5px;
+  }
+  .tree li input:checked + ol > li {
+    display: block;
+    margin: 0 0 0.063em;
+  }
+  .tree li input:checked + ol > li:first-child {
+    margin: 0 0 0.125em;
+  }

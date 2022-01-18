@@ -1,0 +1,14 @@
+.FormPage {
+    width: 70%;
+    height: 100%;
+  }
+.form-div {
+	padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.FormPage .console-head {
+    width: 70%;
+}

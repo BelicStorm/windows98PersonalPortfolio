@@ -1,0 +1,54 @@
+.whith-tree{
+    display: flex;
+    justify-content: center;    
+}
+.directory-tree{
+    width: 25%;
+    background-color: #fff;
+    overflow: scroll;
+}
+.directory-content{
+    width: 85%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.portfolioProgram{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 200px;
+}
+.portfolioProgram img{
+    width: 4em;
+
+}
+.showRun{
+    width: 50%;
+    height: 400px;
+}
+.linkSections {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.linkSection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4em;
+    padding: 2em;
+}
+@media (max-width: 768px) {
+    .directory-tree{
+        display: none;
+        overflow: scroll;
+    }
+    .directory-content{
+        width: 100%;
+        overflow: scroll;
+    }
+}
