@@ -1,5 +1,8 @@
 {
     "portfolio":[
+        {"etiqueta":"Frontend (Ui)","lenguajes":[],"titulo":"DAILY UI 2022 (WIP)",
+                "descripcion":"Reto de diseño de 100 interfaces de usuario. Realizado con Figma.",
+                "github":"","gitlab":"","enlace":"https://www.figma.com/file/mYsRE82HCeieXlZCMWuGNq/%23DailyUi?node-id=0%3A1"},
             {"etiqueta":"Frontend","lenguajes":["nextjs"],"titulo":"DISEÑO LANDING PARA ESTUDIO DE TATUAJES (WIP)",
                 "descripcion":"Diseño de una landing page de un estudio de tatuajes creada con NextJs",
                 "github":"https://github.com/BelicStorm/TattooPageTemplate","gitlab":"","enlace":"https://tattoo-page-template.vercel.app"},
