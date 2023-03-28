@@ -14,7 +14,7 @@ const AboutMe = ({closePage, onFront}) => {
                 <div className="console-body">
                     <article className="aboutProgram">
                         <h2 className="headline">Cristian Pardo Casanova</h2>
-                            <h3 className="subhead">Junior FullStack Developer </h3>
+                            <h3 className="subhead">FullStack Developer </h3>
                             <div className="article-meta">
                                 <div>
                                     <span>Aficiones: </span> <span className="tag">Leer</span> <span className="tag">Escribir</span> <span className="tag">Programar</span> <span className="tag">Montar Maquetas</span>
@@ -47,7 +47,8 @@ const AboutMe = ({closePage, onFront}) => {
 
                             <h2>Más Sobre Mi</h2>
                             <ul className="social-skills">
-                                <li><span className="bolder">"Actualmente":</span> Trabajando en SocialWow como FrontEnd Dev.</li>
+                                <li><span className="bolder">Actualmente:</span> Buscando un trabajo que me ofrezca estabilidad.</li>
+                                <li><span className="bolder">2022-2023:</span> 1 año en Social WoW como FrontEnd Dev especializado en React.</li>
                                 <li><span className="bolder">2021-2022:</span> 1 año en Aplisein como Junior FullStack Dev.</li>
                                 <li><span className="bolder">2020:</span> 3 meses de prácticas en <a href="https://www.linkedin.com/company/devopensource/?originalSubdomain=es" target="_blank">Devopensource</a> como QA tester con Selenium y Cypress</li>
                                 <li><span className="bolder">2018-2020:</span> Ciclo de grado superior D.A.W en <a href="https://portal.edu.gva.es/iestacio/" target="_blank"> IES l'Estació</a> </li>
