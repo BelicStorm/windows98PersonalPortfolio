@@ -107,7 +107,7 @@
             "descripcion": "Diseño de la landing page de la empresa Cicass79",
             "github": "",
             "gitlab": "",
-            "iframe": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F7x0Dy53hz01I07hLb1Jhc7%2FCicass79-ProtoLanding%3Ftype%3Ddesign%26node-id%3D13%253A726%26mode%3Ddesign%26t%3DQ6rMBQA8eHQNlunx-1",
+            "iframe": "<iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F7x0Dy53hz01I07hLb1Jhc7%2FCicass79-ProtoLanding%3Ftype%3Ddesign%26node-id%3D13%253A726%26mode%3Ddesign%26t%3DcGEHvfru9VhoUHak-1' allowfullscreen></iframe>",
             "enlace": "https://www.figma.com/community/file/1361634427583170477"
         },
         {
@@ -119,7 +119,7 @@
             "descripcion": "Diseño de una landing page de un estudio de tatuajes creada con NextJs",
             "github": "https://github.com/BelicStorm/TattooPageTemplate",
             "gitlab": "",
-            "iframe": "https://tattoo-page-template.vercel.app",
+            "iframe": "",
             "enlace": "https://tattoo-page-template.vercel.app"
         },
         {
@@ -131,7 +131,7 @@
             "descripcion": "Portfolio creado para una estudiante de interiorismo, usando la tecnología Gatsby para testear la generación de sitios estáticos y el SSR. ",
             "github": "",
             "gitlab": "https://gitlab.com/BelicStorm/gatsby-test",
-            "iframe": "https://curriculum-portfolio.vercel.app",
+            "iframe": "",
             "enlace": "https://curriculum-portfolio.vercel.app"
         },
         {
@@ -164,7 +164,7 @@
             "descripcion": "App para la gestión y el control de los horarios. App orientada a empresas con múltiples departamentos y un elevado número de empleados. Apollo usa la arquitectura de Apollo Federation 1.",
             "github": "",
             "gitlab": "https://gitlab.com/BelicStorm/fct_daw_19_20",
-            "iframe": "https://docs.google.com/document/d/1erjCzACJG4UlYh2rQmZxUrMJPP64Ec7i3THSOoEAQjQ/",
+            "iframe": "",
             "enlace": "https://docs.google.com/document/d/1erjCzACJG4UlYh2rQmZxUrMJPP64Ec7i3THSOoEAQjQ/"
         },
         {
