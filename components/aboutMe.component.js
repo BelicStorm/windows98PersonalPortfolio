@@ -14,7 +14,7 @@ const AboutMe = ({closePage, onFront}) => {
                 <div className="console-body">
                     <article className="aboutProgram">
                         <h2 className="headline">Cristian Pardo Casanova</h2>
-                            <h3 className="subhead">FullStack Developer </h3>
+                            <h3 className="subhead">FullStack Developer & UX/UI Designer </h3>
                             <div className="article-meta">
                                 <div>
                                     <span>Aficiones: </span> <span className="tag">Leer</span> <span className="tag">Escribir</span> <span className="tag">Programar</span> <span className="tag">Montar Maquetas</span>
@@ -37,17 +37,17 @@ const AboutMe = ({closePage, onFront}) => {
                                 <figcaption>Picture.png</figcaption>
                             </figure>
 
-                            <p>Hola, soy Cristian Pardo entusiasta de la programación web, la ciencia ficción, la fantasía y las maquetas. 
-                               Soy Técnico Superior en Desarrollo de Aplicaciones web y Técnico de Administración de Sistemas en red. De este último título solo me quedo con la gestión de las BDD.
+                            <p>Hola, soy Cristian, técnico Superior en Desarrollo de Aplicaciones web y Diseñador de interfaces y experiencia de usuario.
                             </p>
 
-                            <p>Quiero creer que soy FullStack Developer especializado en tecnologias basadas en JS. Soy resolutivo y trabajo bien en equipo. Mi objetivo, al final del día, es dejar 
+                            <p>Dicen de mi que soy resolutivo y trabajo bien en equipo. Mi objetivo, al final del día, es dejar 
                                 huella y poder decir que algo mío está siendo útil. A veces escribo relatos y creo juegos de mesa, pero esa es otra historia.
                             </p>
 
                             <h2>Más Sobre Mi</h2>
                             <ul className="social-skills">
-                                <li><span className="bolder">Actualmente:</span> Buscando un trabajo que me ofrezca estabilidad.</li>
+                                <li><span className="bolder">Actualmente:</span> Trabajando en <a href="https://www.linkedin.com/company/visual-limes-s-l-/mycompany/verification/" target="_blank">Visual Limes</a>.</li>
+                                <li><span className="bolder">2023-2024:</span> 1 año en <a href="https://www.linkedin.com/company/cicass79-s-l/?originalSubdomain=es" target="_blank">Cicass79</a> como FrontEnd Dev especializado en React y UX/UI Designer.</li>
                                 <li><span className="bolder">2022-2023:</span> 1 año en Social WoW como FrontEnd Dev especializado en React.</li>
                                 <li><span className="bolder">2021-2022:</span> 1 año en Aplisein como Junior FullStack Dev.</li>
                                 <li><span className="bolder">2020:</span> 3 meses de prácticas en <a href="https://www.linkedin.com/company/devopensource/?originalSubdomain=es" target="_blank">Devopensource</a> como QA tester con Selenium y Cypress</li>

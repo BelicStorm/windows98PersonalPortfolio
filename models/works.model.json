@@ -1,30 +1,205 @@
 {
-    "portfolio":[
-        {"etiqueta":"Frontend (Ui)","lenguajes":[],"titulo":"DAILY UI 2022 (WIP)",
-                "descripcion":"Reto de diseño de 100 interfaces de usuario. Realizado con Figma.",
-                "github":"","gitlab":"","enlace":"https://www.figma.com/file/mYsRE82HCeieXlZCMWuGNq/%23DailyUi?node-id=0%3A1"},
-            {"etiqueta":"Frontend","lenguajes":["nextjs"],"titulo":"DISEÑO LANDING PARA ESTUDIO DE TATUAJES (WIP)",
-                "descripcion":"Diseño de una landing page de un estudio de tatuajes creada con NextJs",
-                "github":"https://github.com/BelicStorm/TattooPageTemplate","gitlab":"","enlace":"https://tattoo-page-template.vercel.app"},
-            {"etiqueta":"Frontend","lenguajes":["gatsby"],"titulo":"PORTFOLIO PARA INTERIORISTA",
-                "descripcion":"Portfolio creado para una estudiante de interiorismo, usando la tecnología Gatsby para testear la generación de sitios estáticos y el SSR. ",
-                "github":"","gitlab":"https://gitlab.com/BelicStorm/gatsby-test","enlace":"https://curriculum-portfolio.vercel.app"},
-            {"etiqueta":"Backend","lenguajes":["nodejs","graphql","apollo"],"titulo":"TWO NODEJS, ONE GRAPHQL SUBSCRIPTION",
-                "descripcion":"Ejemplo practico en el que un servidor nodeJs (aka. servidor 2) necesita suscribirse a los cambios de un servidor remoto (aka. servidor 1) para subir a este una imagen del entorno local del servidor 2.",
-                "github":"https://github.com/BelicStorm/NodejsSubToOtherNodeJs","gitlab":"","enlace":""},
-            {"etiqueta":"FullStack","lenguajes":["react","redux","typescript","nodejs","graphql","apollo","docker","postgresql"],"titulo":"GESTIÓN DEL HORARIO",
-                "descripcion":"App para la gestión y el control de los horarios. App orientada a empresas con múltiples departamentos y un elevado número de empleados. Apollo usa la arquitectura de Apollo Federation 1.",
-                "github":"","gitlab":"https://gitlab.com/BelicStorm/fct_daw_19_20","enlace":"https://docs.google.com/document/d/1erjCzACJG4UlYh2rQmZxUrMJPP64Ec7i3THSOoEAQjQ/"},
-            {"etiqueta":"Backend","lenguajes":["go","mysql"],"titulo":"GOLANG API REST COMPILATION-TIME DEPENDENCY INJECTION TEST","descripcion":"Ejemplo sencillo de como crear una Api rest con Go (GinGonic) y Mysql (u otra tecnología de bd), con Gorm como ORM y Wire como inyector de dependencias.",
-                "github":"","gitlab":"https://gitlab.com/BelicStorm/golang-gingonic-gorm-wire-mysql-apirest","enlace":""},
-            {"etiqueta":"FullStack","lenguajes":["angular","graphql","apollo","mongodb","docker","nodejs"],"titulo":"PROYECTO Angular 2º D.A.W",
-                "descripcion":"Aplicación que emula un escenario en el que un solo frontend requiere información de múltiples backends, con diferentes tecnologías y métodos de obtener datos. .",
-                "github":"","gitlab":"https://gitlab.com/BelicStorm/daw2_project1","enlace":""},
-            {"etiqueta":"Backend","lenguajes":["nodejs","apollo","graphql"],"titulo":"TEST DE IMPLEMENTACIÓN APOLLO FEDERATION",
-                "descripcion":"Ejemplo sencillo de como crear una Api con Graphql Apollo Federation 1.","github":"https://gitlab.com/BelicStorm/graphql-apollo-federation-example","gitlab":"","enlace":""},
-            {"etiqueta":"FullStack","lenguajes":["go","docker","mysql"],"titulo":"PROYECTO Go 2º D.A.W",
-                "descripcion":"Proyecto conjunto realizado en el grado superior de D.A.W. En este Proyecto me encargué de realizar un Backend con Go creando microservicios que emulan los sistemas de una ciudad informatizada.",
-                "github":"","gitlab":"https://github.com/juanlubel/Angular_Go_Micro_City_Project","enlace":""},
-            {"etiqueta":"Frontend","lenguajes":["javascript","html","css"],"titulo":"Plantilla Portfolio","descripcion":"Plantilla vanilla usada en mi antiguo portfolio","github":"https://github.com/BelicStorm/personalPortfolio","gitlab":"","enlace":""}
+    "portfolio": [
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "DAILY UI 2022",
+            "descripcion": "Reto de diseño de 100 interfaces de usuario. Realizado con Figma.",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1223947829293922695"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Task Tarvern",
+            "descripcion": "Prueba de concepto para un gestor de tareas gamificado",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1226167187267581224"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Prueba Panel Brutalista",
+            "descripcion": "Prueba de concepto para un panel Brutalista",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1225464281212192010"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "DS eComerce",
+            "descripcion": "Creación del Design System de un eComerce",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1223948102114641289"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Diseños minimalistas landing pages",
+            "descripcion": "Set de diseños minimalistas para la creación de landing pages",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1223947957355792776"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "DS app gestión tareas",
+            "descripcion": "Creación del Design System para una app de gestión de tareas de usuarios",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1361631588109409187"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Bad Omens Tribute Page",
+            "descripcion": "Pagina tributo a la banda de metal Bad Omens",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1361632498864822182"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Pagina para la compra de imagenes",
+            "descripcion": "Diseño de una pagina para la compra de imagenes de eventos deportivos, por reconocimiento facial.",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1361632820364145576"
+        },
+        {
+            "etiqueta": "UI/UX",
+            "lenguajes": [],
+            "titulo": "Landing Page Cicass79",
+            "descripcion": "Diseño de la landing page de la empresa Cicass79",
+            "github": "",
+            "gitlab": "",
+            "enlace": "https://www.figma.com/community/file/1361634427583170477"
+        },
+        {
+            "etiqueta": "Frontend",
+            "lenguajes": [
+                "nextjs"
+            ],
+            "titulo": "DISEÑO LANDING PARA ESTUDIO DE TATUAJES (WIP)",
+            "descripcion": "Diseño de una landing page de un estudio de tatuajes creada con NextJs",
+            "github": "https://github.com/BelicStorm/TattooPageTemplate",
+            "gitlab": "",
+            "enlace": "https://tattoo-page-template.vercel.app"
+        },
+        {
+            "etiqueta": "Frontend",
+            "lenguajes": [
+                "gatsby"
+            ],
+            "titulo": "PORTFOLIO PARA INTERIORISTA",
+            "descripcion": "Portfolio creado para una estudiante de interiorismo, usando la tecnología Gatsby para testear la generación de sitios estáticos y el SSR. ",
+            "github": "",
+            "gitlab": "https://gitlab.com/BelicStorm/gatsby-test",
+            "enlace": "https://curriculum-portfolio.vercel.app"
+        },
+        {
+            "etiqueta": "Backend",
+            "lenguajes": [
+                "nodejs",
+                "graphql",
+                "apollo"
+            ],
+            "titulo": "TWO NODEJS, ONE GRAPHQL SUBSCRIPTION",
+            "descripcion": "Ejemplo practico en el que un servidor nodeJs (aka. servidor 2) necesita suscribirse a los cambios de un servidor remoto (aka. servidor 1) para subir a este una imagen del entorno local del servidor 2.",
+            "github": "https://github.com/BelicStorm/NodejsSubToOtherNodeJs",
+            "gitlab": "",
+            "enlace": ""
+        },
+        {
+            "etiqueta": "FullStack",
+            "lenguajes": [
+                "react",
+                "redux",
+                "typescript",
+                "nodejs",
+                "graphql",
+                "apollo",
+                "docker",
+                "postgresql"
+            ],
+            "titulo": "GESTIÓN DEL HORARIO",
+            "descripcion": "App para la gestión y el control de los horarios. App orientada a empresas con múltiples departamentos y un elevado número de empleados. Apollo usa la arquitectura de Apollo Federation 1.",
+            "github": "",
+            "gitlab": "https://gitlab.com/BelicStorm/fct_daw_19_20",
+            "enlace": "https://docs.google.com/document/d/1erjCzACJG4UlYh2rQmZxUrMJPP64Ec7i3THSOoEAQjQ/"
+        },
+        {
+            "etiqueta": "Backend",
+            "lenguajes": [
+                "go",
+                "mysql"
+            ],
+            "titulo": "GOLANG API REST COMPILATION-TIME DEPENDENCY INJECTION TEST",
+            "descripcion": "Ejemplo sencillo de como crear una Api rest con Go (GinGonic) y Mysql (u otra tecnología de bd), con Gorm como ORM y Wire como inyector de dependencias.",
+            "github": "",
+            "gitlab": "https://gitlab.com/BelicStorm/golang-gingonic-gorm-wire-mysql-apirest",
+            "enlace": ""
+        },
+        {
+            "etiqueta": "FullStack",
+            "lenguajes": [
+                "angular",
+                "graphql",
+                "apollo",
+                "mongodb",
+                "docker",
+                "nodejs"
+            ],
+            "titulo": "PROYECTO Angular 2º D.A.W",
+            "descripcion": "Aplicación que emula un escenario en el que un solo frontend requiere información de múltiples backends, con diferentes tecnologías y métodos de obtener datos. .",
+            "github": "",
+            "gitlab": "https://gitlab.com/BelicStorm/daw2_project1",
+            "enlace": ""
+        },
+        {
+            "etiqueta": "Backend",
+            "lenguajes": [
+                "nodejs",
+                "apollo",
+                "graphql"
+            ],
+            "titulo": "TEST DE IMPLEMENTACIÓN APOLLO FEDERATION",
+            "descripcion": "Ejemplo sencillo de como crear una Api con Graphql Apollo Federation 1.",
+            "github": "https://gitlab.com/BelicStorm/graphql-apollo-federation-example",
+            "gitlab": "",
+            "enlace": ""
+        },
+        {
+            "etiqueta": "FullStack",
+            "lenguajes": [
+                "go",
+                "docker",
+                "mysql"
+            ],
+            "titulo": "PROYECTO Go 2º D.A.W",
+            "descripcion": "Proyecto conjunto realizado en el grado superior de D.A.W. En este Proyecto me encargué de realizar un Backend con Go creando microservicios que emulan los sistemas de una ciudad informatizada.",
+            "github": "",
+            "gitlab": "https://github.com/juanlubel/Angular_Go_Micro_City_Project",
+            "enlace": ""
+        },
+        {
+            "etiqueta": "Frontend",
+            "lenguajes": [
+                "javascript",
+                "html",
+                "css"
+            ],
+            "titulo": "Plantilla Portfolio",
+            "descripcion": "Plantilla vanilla usada en mi antiguo portfolio",
+            "github": "https://github.com/BelicStorm/personalPortfolio",
+            "gitlab": "",
+            "enlace": ""
+        }
     ]
 }
