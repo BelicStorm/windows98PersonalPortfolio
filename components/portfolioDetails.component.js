@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const PortfolioDetails = ({ closePage, onFront, data }) => {
-    const { etiqueta, lenguajes, titulo, descripcion, github, gitlab, enlace } = data[2]
+    const { etiqueta, lenguajes, titulo, descripcion, github, gitlab, enlace, iframe } = data[2]
 
     return <div className="OpenedPage" style={{ display: onFront === data ? "" : "none" }}>
         <div className="console-head">
@@ -50,7 +50,7 @@ const PortfolioDetails = ({ closePage, onFront, data }) => {
                     enlace !== ""
                         ? <div className='linkSection tag'>
                             <span><a href={enlace}>Ver el proyecto</a></span>
-                            <iframe className='showRun' src={enlace}></iframe>
+                            <iframe className='showRun' src={iframe}></iframe>
                         </div>
                         : ""
                 }
