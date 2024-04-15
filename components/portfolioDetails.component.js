@@ -50,7 +50,11 @@ const PortfolioDetails = ({ closePage, onFront, data }) => {
                     enlace !== ""
                         ? <div className='linkSection tag'>
                             <span><a href={enlace}>Ver el proyecto</a></span>
-                            <iframe className='showRun' src={iframe}></iframe>
+                            {
+                                iframe.length <= 0 
+                                   ? <iframe className='showRun' src={enlace}></iframe>
+                                   : <div dangerouslySetInnerHTML={{__html: iframe}} />
+                            }
                         </div>
                         : ""
                 }
